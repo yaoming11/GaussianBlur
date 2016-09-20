@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63856491D8FB71F004D9486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63856481D8FB71F004D9486 /* main.m */; };
+		C638564C1D8FB71F004D9486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C638564B1D8FB71F004D9486 /* AppDelegate.m */; };
+		C638564F1D8FB71F004D9486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C638564E1D8FB71F004D9486 /* ViewController.m */; };
+		C63856521D8FB71F004D9486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63856501D8FB71F004D9486 /* Main.storyboard */; };
+		C63856541D8FB71F004D9486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63856531D8FB71F004D9486 /* Assets.xcassets */; };
+		C63856571D8FB71F004D9486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63856551D8FB71F004D9486 /* LaunchScreen.storyboard */; };
+		C63856621D8FB720004D9486 /* BlurEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63856611D8FB720004D9486 /* BlurEffectTests.m */; };
+		C638566D1D8FB720004D9486 /* BlurEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C638566C1D8FB720004D9486 /* BlurEffectUITests.m */; };
+		C638567B1D8FB742004D9486 /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C638567A1D8FB742004D9486 /* orange.jpg */; settings = {ASSET_TAGS = (); }; };
+		C638567D1D8FC141004D9486 /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C638567C1D8FC141004D9486 /* bike.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C638565E1D8FB720004D9486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638563C1D8FB71F004D9486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63856431D8FB71F004D9486;
+			remoteInfo = BlurEffect;
+		};
+		C63856691D8FB720004D9486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638563C1D8FB71F004D9486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63856431D8FB71F004D9486;
+			remoteInfo = BlurEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63856441D8FB71F004D9486 /* BlurEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63856481D8FB71F004D9486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C638564A1D8FB71F004D9486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C638564B1D8FB71F004D9486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C638564D1D8FB71F004D9486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C638564E1D8FB71F004D9486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C63856511D8FB71F004D9486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63856531D8FB71F004D9486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63856561D8FB71F004D9486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63856581D8FB71F004D9486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C638565D1D8FB720004D9486 /* BlurEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63856611D8FB720004D9486 /* BlurEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurEffectTests.m; sourceTree = "<group>"; };
+		C63856631D8FB720004D9486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63856681D8FB720004D9486 /* BlurEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C638566C1D8FB720004D9486 /* BlurEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurEffectUITests.m; sourceTree = "<group>"; };
+		C638566E1D8FB720004D9486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C638567A1D8FB742004D9486 /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		C638567C1D8FC141004D9486 /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63856411D8FB71F004D9486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C638565A1D8FB720004D9486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63856651D8FB720004D9486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C638563B1D8FB71F004D9486 = {
+			isa = PBXGroup;
+			children = (
+				C63856461D8FB71F004D9486 /* BlurEffect */,
+				C63856601D8FB720004D9486 /* BlurEffectTests */,
+				C638566B1D8FB720004D9486 /* BlurEffectUITests */,
+				C63856451D8FB71F004D9486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63856451D8FB71F004D9486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63856441D8FB71F004D9486 /* BlurEffect.app */,
+				C638565D1D8FB720004D9486 /* BlurEffectTests.xctest */,
+				C63856681D8FB720004D9486 /* BlurEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63856461D8FB71F004D9486 /* BlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C638567C1D8FC141004D9486 /* bike.jpg */,
+				C638567A1D8FB742004D9486 /* orange.jpg */,
+				C638564A1D8FB71F004D9486 /* AppDelegate.h */,
+				C638564B1D8FB71F004D9486 /* AppDelegate.m */,
+				C638564D1D8FB71F004D9486 /* ViewController.h */,
+				C638564E1D8FB71F004D9486 /* ViewController.m */,
+				C63856501D8FB71F004D9486 /* Main.storyboard */,
+				C63856531D8FB71F004D9486 /* Assets.xcassets */,
+				C63856551D8FB71F004D9486 /* LaunchScreen.storyboard */,
+				C63856581D8FB71F004D9486 /* Info.plist */,
+				C63856471D8FB71F004D9486 /* Supporting Files */,
+			);
+			path = BlurEffect;
+			sourceTree = "<group>";
+		};
+		C63856471D8FB71F004D9486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C63856481D8FB71F004D9486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C63856601D8FB720004D9486 /* BlurEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63856611D8FB720004D9486 /* BlurEffectTests.m */,
+				C63856631D8FB720004D9486 /* Info.plist */,
+			);
+			path = BlurEffectTests;
+			sourceTree = "<group>";
+		};
+		C638566B1D8FB720004D9486 /* BlurEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C638566C1D8FB720004D9486 /* BlurEffectUITests.m */,
+				C638566E1D8FB720004D9486 /* Info.plist */,
+			);
+			path = BlurEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63856431D8FB71F004D9486 /* BlurEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63856711D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffect" */;
+			buildPhases = (
+				C63856401D8FB71F004D9486 /* Sources */,
+				C63856411D8FB71F004D9486 /* Frameworks */,
+				C63856421D8FB71F004D9486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurEffect;
+			productName = BlurEffect;
+			productReference = C63856441D8FB71F004D9486 /* BlurEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C638565C1D8FB720004D9486 /* BlurEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63856741D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffectTests" */;
+			buildPhases = (
+				C63856591D8FB720004D9486 /* Sources */,
+				C638565A1D8FB720004D9486 /* Frameworks */,
+				C638565B1D8FB720004D9486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C638565F1D8FB720004D9486 /* PBXTargetDependency */,
+			);
+			name = BlurEffectTests;
+			productName = BlurEffectTests;
+			productReference = C638565D1D8FB720004D9486 /* BlurEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C63856671D8FB720004D9486 /* BlurEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63856771D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffectUITests" */;
+			buildPhases = (
+				C63856641D8FB720004D9486 /* Sources */,
+				C63856651D8FB720004D9486 /* Frameworks */,
+				C63856661D8FB720004D9486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C638566A1D8FB720004D9486 /* PBXTargetDependency */,
+			);
+			name = BlurEffectUITests;
+			productName = BlurEffectUITests;
+			productReference = C63856681D8FB720004D9486 /* BlurEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C638563C1D8FB71F004D9486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = YM;
+				TargetAttributes = {
+					C63856431D8FB71F004D9486 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C638565C1D8FB720004D9486 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C63856431D8FB71F004D9486;
+					};
+					C63856671D8FB720004D9486 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C63856431D8FB71F004D9486;
+					};
+				};
+			};
+			buildConfigurationList = C638563F1D8FB71F004D9486 /* Build configuration list for PBXProject "BlurEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C638563B1D8FB71F004D9486;
+			productRefGroup = C63856451D8FB71F004D9486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63856431D8FB71F004D9486 /* BlurEffect */,
+				C638565C1D8FB720004D9486 /* BlurEffectTests */,
+				C63856671D8FB720004D9486 /* BlurEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63856421D8FB71F004D9486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63856571D8FB71F004D9486 /* LaunchScreen.storyboard in Resources */,
+				C638567B1D8FB742004D9486 /* orange.jpg in Resources */,
+				C63856541D8FB71F004D9486 /* Assets.xcassets in Resources */,
+				C63856521D8FB71F004D9486 /* Main.storyboard in Resources */,
+				C638567D1D8FC141004D9486 /* bike.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C638565B1D8FB720004D9486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63856661D8FB720004D9486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63856401D8FB71F004D9486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C638564F1D8FB71F004D9486 /* ViewController.m in Sources */,
+				C638564C1D8FB71F004D9486 /* AppDelegate.m in Sources */,
+				C63856491D8FB71F004D9486 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63856591D8FB720004D9486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63856621D8FB720004D9486 /* BlurEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63856641D8FB720004D9486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C638566D1D8FB720004D9486 /* BlurEffectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C638565F1D8FB720004D9486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63856431D8FB71F004D9486 /* BlurEffect */;
+			targetProxy = C638565E1D8FB720004D9486 /* PBXContainerItemProxy */;
+		};
+		C638566A1D8FB720004D9486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63856431D8FB71F004D9486 /* BlurEffect */;
+			targetProxy = C63856691D8FB720004D9486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63856501D8FB71F004D9486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63856511D8FB71F004D9486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63856551D8FB71F004D9486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63856561D8FB71F004D9486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C638566F1D8FB720004D9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C63856701D8FB720004D9486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63856721D8FB720004D9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C63856731D8FB720004D9486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C63856751D8FB720004D9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurEffect.app/BlurEffect";
+			};
+			name = Debug;
+		};
+		C63856761D8FB720004D9486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurEffect.app/BlurEffect";
+			};
+			name = Release;
+		};
+		C63856781D8FB720004D9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlurEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlurEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C63856791D8FB720004D9486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlurEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.BlurEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlurEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C638563F1D8FB71F004D9486 /* Build configuration list for PBXProject "BlurEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C638566F1D8FB720004D9486 /* Debug */,
+				C63856701D8FB720004D9486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63856711D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63856721D8FB720004D9486 /* Debug */,
+				C63856731D8FB720004D9486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63856741D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63856751D8FB720004D9486 /* Debug */,
+				C63856761D8FB720004D9486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63856771D8FB720004D9486 /* Build configuration list for PBXNativeTarget "BlurEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63856781D8FB720004D9486 /* Debug */,
+				C63856791D8FB720004D9486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C638563C1D8FB71F004D9486 /* Project object */;
+}
